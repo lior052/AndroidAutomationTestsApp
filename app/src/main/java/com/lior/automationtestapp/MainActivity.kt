@@ -259,7 +259,7 @@ fun ListScreen(onBack: () -> Unit) {
     if (showDialog) {
         AlertDialog(
             onDismissRequest = { showDialog = false },
-            title = { Text("Add a new item",
+            title = { Text("Add new item",
                 modifier = Modifier.semantics {
                 contentDescription = "popup title"
             }) },
